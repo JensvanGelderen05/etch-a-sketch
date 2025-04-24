@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding-top: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    max-width: 800px;
+}
+
+.box {
+    flex: 1;
+    aspect-ratio: 1/1;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.touchedBox {
+    background-color: black;
+}
+
+.row {
+    display: flex;
+}
+
+#change {
+    margin: 0 auto;
+}
